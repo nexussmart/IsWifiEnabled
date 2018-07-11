@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com-qduriani-IsWifiEnabled" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>IsWifiEnabled</name>
+    <js-module name="isWifiEnabled" src="www/IsWifiEnabled.js">
+        <clobbers target="IsWifiEnabled" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="IsWifiEnabled">
+                <param name="ios-package" value="IsWifiEnabled" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/IsWifiEnabled.h" />
+        <header-file src="src/ios/IsWifiEnabled.m" />
+    </platform>
+</plugin>

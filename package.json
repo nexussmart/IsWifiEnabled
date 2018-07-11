@@ -1,0 +1,11 @@
+{
+  "name": "IsWifiEnabled",
+  "version": "0.0.1",
+  "description": "Cordova plugin for check is wifi is just enabled in iOS.",
+  "cordova": {
+    "id": "com-qduriani-IsWifiEnabled",
+    "platforms": [
+      "ios"
+    ]
+  }
+}
