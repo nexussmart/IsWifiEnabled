@@ -1,3 +1,3 @@
 # IsWifiEnabled
 
-Usage:  IsWifiEnabled.check(function success(){}, function failure(){});
+Usage:  IsWifiEnabled.check(function success(){}, function failure(error){});
