@@ -4,13 +4,15 @@
     <js-module name="isWifiEnabled" src="www/IsWifiEnabled.js">
         <clobbers target="IsWifiEnabled" />
     </js-module>
+
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="IsWifiEnabled">
                 <param name="ios-package" value="IsWifiEnabled" />
+                <param name="onload" value="true" />
             </feature>
         </config-file>
-        <source-file src="src/ios/IsWifiEnabled.h" />
-        <header-file src="src/ios/IsWifiEnabled.m" />
+        <header-file src="src/ios/IsWifiEnabled.h" />
+        <source-file src="src/ios/IsWifiEnabled.m" />
     </platform>
 </plugin>
